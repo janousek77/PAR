@@ -45,18 +45,22 @@ h2 {
   color: #3b5998;
   text-decoration: none;
 }
+
 .gplus i:hover {
   color: #dd4b39;
   text-decoration: none;
 }
+
 .insta i:hover {
   color: #517fa4;
   text-decoration: none;
 }
+
 .twitt i:hover {
   color: #00aced;
   text-decoration: none;
 }
+
 .lin i:hover {
   color: #007bb6;
   text-decoration: none;
@@ -84,8 +88,8 @@ h2 {
   cursor: pointer;
   transition: all 0.3s;
   filter: grayscale(100%) opacity(0.7);
-
 }
+
 .portrait:hover {
   filter: grayscale(0) opacity(1);
   border-radius: 0;
@@ -124,7 +128,7 @@ text-transform:uppercase;
   line-height:.5rem;
   padding: 0.3em 1.9em;
   font: 400 0.8em/1 'Roboto', serif;
-  }
+}
 
 p {
 font-size: .94em;
@@ -143,22 +147,22 @@ font-variant:small-caps;
 .portrait-details li:first-child {
   font: 200% 'Roboto', sans-serif;
   text-transform:uppercase;
-  padding: 21px;
-  margin-top:-8px;
-  margin-left:-0px;
+  padding: 21px 0px;
   color: #fff;
-
 }
+
 .portrait-details li:last-child {
   border-bottom: none;
   padding-bottom: 1.5em;
-  }
+}
+
 .portrait-details li:nth-child(2) {
   color: #fff;
   letter-spacing:.5px;
   padding: 1.5em 1.9em 0.7em;
   font-weight: 700;
-    }
+}
+
 .portrait-details li a {
   color: inherit;
   cursor: pointer;
@@ -168,7 +172,7 @@ font-variant:small-caps;
 .fortunato{
   background-image: url(http://placehold.it/200x200);}
 .sean{
-background-image: url(http://placehold.it/200x200);}
+  background-image: url(http://placehold.it/200x200);}
 .chris{
   background-image: url(http://placehold.it/200x200);}
 
