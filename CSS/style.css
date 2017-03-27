@@ -1,0 +1,19 @@
+.imgContainer{
+    float:left;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 41.75px;
+    background-color: black;
+    text-align: center;
+}
+body {
+
+  background-color: #black;
+  background-image: "/pets.jpg";
+ }
+ header {
+   background-image: "/pets.jpg";
+   background-color: #black;
+   width: auto;
+   height: auto;
