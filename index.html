@@ -41,13 +41,13 @@
         <fieldset>
             <ul class="">
               <li class="">
-                <label for="fap-type">Type</label>
+                <label for="type">Type</label>
                 <div class="">
                 <div class="">
                 <select id="" name="animal" class="">
                 <option value="" class="any">Any</option>
-                <option value="dog" class="petdog">Dog</option>
-                <option value="cat" class="petcat">Cat</option>
+                <option value="dog" class="dog">Dog</option>
+                <option value="cat" class="cat">Cat</option>
                 </select>
                 </div>
                 </div>
@@ -57,6 +57,7 @@
                   <div class=""></div>
                   </div>
                 </li>
+                <button type="button" name="button">Click here</button>
                 <li class="">
                   <span class="label-cbox">Age</span>
                   <div class="">
@@ -65,15 +66,11 @@
                   <div class="">Any Age</div>
                   <select id="" name="animal" class="">
                   <option value="" class="any">All</option>
-                  <option value="dog" class="petdog">&lt; 1 year</option>
-                  <option value="cat" class="petcat">1-10 years</option>
-                  <option value="cat" class="petcat">10+ years</option>
-
+                  <option value="young" class="young">&lt; 1 year</option>
+                  <option value="adult" class="adult">1-10 years</option>
+                  <option value="old" class="old">10+ years</option>
                   </div>
                   </div>
-                </li>
-
-                <button type="submit" onclick="purinaTrackEvent('','pet search','submit search criteria')" id="find-pets-btn" class="petSearch-filter-param-btn js-sanitize-submit">Find Pets</button>
                 </li>
             </ul>
         </fieldset>
