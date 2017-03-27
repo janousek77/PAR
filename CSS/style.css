@@ -47,6 +47,19 @@ header {
   color: white;
 }
 
-.fa fa-paw {
+.paw {
+  margin-left:50px;
+  height:10pt;
+  width:10pt;
+}
 
+.paw1 {
+  margin-left:50px;
+  height:10pt;
+  width:10pt;
+}
+.paw2 {
+  margin-left:50px;
+  height:10pt;
+  width:10pt;
 }
