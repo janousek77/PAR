@@ -10,10 +10,8 @@ function submitChoice(event){
   console.log(animalChoice.value);
   var ageChoice = age.options[age.selectedIndex];
   console.log(ageChoice.value);
-  if(animalChoice.value === 'any' && ageChoice.value === 'any'){
-    window.location.href = 'all_pets.html';
-  }
-  else if(animalChoice.value === 'dog' && ageChoice.value === 'any'){
+
+  if(animalChoice.value === 'dog' && ageChoice.value === 'any'){
     window.location.href = 'dog.html';
   }
   else if(animalChoice.value === 'dog' && ageChoice.value === 'young'){
@@ -24,9 +22,6 @@ function submitChoice(event){
   }
   else if(animalChoice.value === 'cat' && ageChoice.value === 'old'){
     window.location.href = 'elderly_cat.html';
-  }
-  else if(animalChoice.value === 'any' && ageChoice.value === 'any'){
-    window.location.href = 'all_pets.html';
   }
   else if(animalChoice.value === 'cat' && ageChoice.value === 'any'){
     window.location.href = 'cat.html';
