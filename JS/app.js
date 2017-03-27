@@ -22,8 +22,23 @@ function submitChoice(event){
   else if(animalChoice.value === 'dog' && ageChoice.value === 'adult'){
     window.location.href = 'adult_dog.html';
   }
-  else if(animalChoice.value === 'dog' && ageChoice.value === 'old'){
-    window.location.href = 'elderly_dog.html';
+  else if(animalChoice.value === 'cat' && ageChoice.value === 'old'){
+    window.location.href = 'elderly_cat.html';
+  }
+  else if(animalChoice.value === 'any' && ageChoice.value === 'any'){
+    window.location.href = 'all_pets.html';
+  }
+  else if(animalChoice.value === 'cat' && ageChoice.value === 'any'){
+    window.location.href = 'cat.html';
+  }
+  else if(animalChoice.value === 'cat' && ageChoice.value === 'young'){
+    window.location.href = 'kitten.html';
+  }
+  else if(animalChoice.value === 'cat' && ageChoice.value === 'adult'){
+    window.location.href = 'adult_cat.html';
+  }
+  else if(animalChoice.value === 'cat' && ageChoice.value === 'old'){
+    window.location.href = 'elderly_cat.html';
   }
 };
 form.addEventListener('submit', submitChoice);
