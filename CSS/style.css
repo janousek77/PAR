@@ -22,7 +22,7 @@ header {
 }
 
 .topnav {
-  background-color: #d3d3d3;
+  background-color: #744EB2;
   overflow: hidden;
 }
 
@@ -47,6 +47,9 @@ header {
   color: white;
 }
 
-.fa fa-paw {
+.petSearch {
+  position: absolute;
+  margin-left: 8px;
+  margin-bottom: 200px;
 
 }
