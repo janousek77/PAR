@@ -10,9 +10,20 @@ function submitChoice(event){
   console.log(animalChoice.value);
   var ageChoice = age.options[age.selectedIndex];
   console.log(ageChoice.value);
-  if(animalChoice.value === dog && ageChoice.value === any){
-    console.log('true');
+  if(animalChoice.value === any && ageChoice.value === any){
+    window.location.href = 'all_pets.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === any){
     window.location.href = 'dog.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === young){
+    window.location.href = 'puppy.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === adult){
+    window.location.href = 'adult_dog.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === old){
+    window.location.href = 'elderly_dog.html';
   }
 };
 form.addEventListener('submit', submitChoice);
