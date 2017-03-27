@@ -2,6 +2,23 @@
 
 .imgContainer{
     float:left;
-    margin-left: 30px;
+    margin-left: 50px;
 
+}
+body {
+    background-image:url("img/background.jpg");"
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.image123 {
+  margin: auto;
+}
+.imgContainer:hover {
+
+        -webkit-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        transform: scale(1.10);
 }
