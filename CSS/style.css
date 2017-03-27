@@ -5,19 +5,18 @@
     margin-bottom: 5px;
     margin-left: 100px;
     margin-right: 41.75px;
-    background-color: black;
     text-align: center;
 }
+
 body {
 
-  background-color: #black;
-  background-image: "/pets.jpg";
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
  }
- header {
-   background-image: "/pets.jpg";
-   background-color: #black;
-   width: auto;
-   height: auto;
 
-
-
+header {
+  width: auto;
+  height: auto;
+}
