@@ -36,7 +36,7 @@
   </div>
 </nav>
       <main>
-        <form id="frm-find-a-pet" class="frm-find-a-pet clear js-sanitize js-antiClickjack-petSearchForm" action="https://www.petfinder.com/pet-search" method="get" autocomplete="off">
+        <form id="submitChoice">
     <div class="petSearch">
         <fieldset>
             <ul class="">
@@ -45,9 +45,9 @@
                 <div class="">
                 <div class="">
                 <select id="" name="animal" class="">
-                <option value="" class="any">Any</option>
-                <option value="dog" class="dog">Dog</option>
-                <option value="cat" class="cat">Cat</option>
+                  <option value="any" class="any">Any</option>
+                  <option value="dog" class="dog">Dog</option>
+                  <option value="cat" class="cat">Cat</option>
                 </select>
                 </div>
                 </div>
@@ -57,28 +57,29 @@
                   <div class=""></div>
                   </div>
                 </li>
-                <button type="button" name="button">Click here</button>
+                <button type="submit" name="button">Click here</button>
                 <li class="">
-                  <span class="label-cbox">Age</span>
+                  <label for="type">Age</label>
                   <div class="">
                   <div class="">
                   <div class=""></div>
-                  <div class="">Any Age</div>
-                  <select id="" name="animal" class="">
-                  <option value="" class="any">All</option>
-                  <option value="young" class="young">&lt; 1 year</option>
-                  <option value="adult" class="adult">1-10 years</option>
-                  <option value="old" class="old">10+ years</option>
+                  <div class=""></div>
+                  <select id="" name="age" class="">
+                    <option value="" class="any">Any</option>
+                    <option value="young" class="young">&lt; 1 year</option>
+                    <option value="adult" class="adult">1-10 years</option>
+                    <option value="old" class="old">10+ years</option>
                   </div>
                   </div>
                 </li>
             </ul>
         </fieldset>
-
-            </div>
-</form>
+    </div>
+    </form>
 
         </form>
       </main>
+
+      <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
