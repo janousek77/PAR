@@ -46,24 +46,3 @@ header {
   background-color: #4CAF50;
   color: white;
 }
-
-.paw {
-  position: relative;
-  margin-left: -485px;
-  margin-top: 12px;
-  height: 12pt;
-  width: 14pt;
-}
-
-/*.paw1 {
-  position: absolute;
-  margin-left: -500px;
-  maring-top: 12px;
-  height: 12pt;
-  width: 14pt;
-}
-.paw2 {
-  margin-left:50px;
-  height:10pt;
-  width:10pt;
-}*/
