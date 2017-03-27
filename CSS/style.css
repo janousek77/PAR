@@ -22,7 +22,7 @@ header {
 }
 
 .topnav {
-  background-color: #d3d3d3;
+  background-color: #744EB2;
   overflow: hidden;
 }
 
@@ -45,4 +45,11 @@ header {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.petSearch {
+  position: absolute;
+  margin-left: 8px;
+  margin-bottom: 200px;
+
 }
