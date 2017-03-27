@@ -6,7 +6,24 @@ var form = document.getElementById('submitChoice');
 
 function submitChoice(event){
   event.preventDefault();
-  console.log(animal);
-  console.log(age);
+  var animalChoice = animal.options[animal.selectedIndex];
+  console.log(animalChoice.value);
+  var ageChoice = age.options[age.selectedIndex];
+  console.log(ageChoice.value);
+  if(animalChoice.value === any && ageChoice.value === any){
+    window.location.href = 'all_pets.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === any){
+    window.location.href = 'dog.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === young){
+    window.location.href = 'puppy.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === adult){
+    window.location.href = 'adult_dog.html';
+  }
+  else if(animalChoice.value === dog && ageChoice.value === old){
+    window.location.href = 'elderly_dog.html';
+  }
 };
 form.addEventListener('submit', submitChoice);
