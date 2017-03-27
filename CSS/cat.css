@@ -1,10 +1,9 @@
-
-
 .imgContainer{
-    float:left;
-    margin-left: 87px;
 
+  float:left;
+  margin-left: 87px;
 }
+
 body {
     background-image: url("../img/background.jpg");
     background-size: cover;
@@ -13,6 +12,11 @@ h1 {
   text-align: center;
   font-size: 50px;
   font-family: fantasy;
+}
+
+.image123 {
+margin-left: auto;
+}
 
 .imgContainer:hover {
 
@@ -21,6 +25,13 @@ h1 {
         transform: scale(1.50);
 }
 
-.image123 {
-margin-left: auto;
+.imgContainer p {
+  height:100px;
+  width:180px;
+  overflow:auto;
+  background-color:yellowgreen;
+  color:white;
+  scrollbar-base-color:gold;
+  font-family:sans-serif;padding:10px;
+  font-size: 13px;
 }
