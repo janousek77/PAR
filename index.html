@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
-    <header>
+    <nav>
         <div class="image123">
       <div class="imgContainer">
           <img src="img/pets.jpg" width="50" height="50"/>
@@ -34,8 +34,51 @@
           <a href="" >Else</a>
       </div>
   </div>
-      </header>
-      <br>
+</nav>
+      <main>
+        <form id="frm-find-a-pet" class="frm-find-a-pet clear js-sanitize js-antiClickjack-petSearchForm" action="https://www.petfinder.com/pet-search" method="get" autocomplete="off">
+    <div class="petSearch">
+        <fieldset>
+            <ul class="">
+              <li class="">
+                <label for="type">Type</label>
+                <div class="">
+                <div class="">
+                <select id="" name="animal" class="">
+                <option value="" class="any">Any</option>
+                <option value="dog" class="dog">Dog</option>
+                <option value="cat" class="cat">Cat</option>
+                </select>
+                </div>
+                </div>
+                </li>
+                <li class="">
+                  <div class="">
+                  <div class=""></div>
+                  </div>
+                </li>
+                <button type="button" name="button">Click here</button>
+                <li class="">
+                  <span class="label-cbox">Age</span>
+                  <div class="">
+                  <div class="">
+                  <div class=""></div>
+                  <div class="">Any Age</div>
+                  <select id="" name="animal" class="">
+                  <option value="" class="any">All</option>
+                  <option value="young" class="young">&lt; 1 year</option>
+                  <option value="adult" class="adult">1-10 years</option>
+                  <option value="old" class="old">10+ years</option>
+                  </div>
+                  </div>
+                </li>
+            </ul>
+        </fieldset>
 
+            </div>
+</form>
+
+        </form>
+      </main>
   </body>
 </html>
