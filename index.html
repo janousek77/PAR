@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
-    <header>
+    <nav>
         <div class="image123">
       <div class="imgContainer">
           <img src="img/pets.jpg" width="50" height="50"/>
@@ -34,8 +34,54 @@
           <a href="" >Else</a>
       </div>
   </div>
-      </header>
-      <br>
+</nav>
+      <main>
+        <form id="frm-find-a-pet" class="frm-find-a-pet clear js-sanitize js-antiClickjack-petSearchForm" action="https://www.petfinder.com/pet-search" method="get" autocomplete="off">
+    <div class="petSearch">
+        <fieldset>
+            <ul class="">
+              <li class="">
+                <label for="fap-type">Type</label>
+                <div class="">
+                <div class="">
+                <select id="" name="animal" class="">
+                <option value="" class="any">Any</option>
+                <option value="dog" class="petdog">Dog</option>
+                <option value="cat" class="petcat">Cat</option>
+                </select>
+                </div>
+                </div>
+                </li>
+                <li class="">
+                  <div class="">
+                  <div class=""></div>
+                  </div>
+                </li>
+                <li class="">
+                  <span class="label-cbox">Age</span>
+                  <div class="">
+                  <div class="">
+                  <div class=""></div>
+                  <div class="">Any Age</div>
+                  <select id="" name="animal" class="">
+                  <option value="" class="any">All</option>
+                  <option value="dog" class="petdog">&lt; 1 year</option>
+                  <option value="cat" class="petcat">1-10 years</option>
+                  <option value="cat" class="petcat">10+ years</option>
 
+                  </div>
+                  </div>
+                </li>
+
+                <button type="submit" onclick="purinaTrackEvent('','pet search','submit search criteria')" id="find-pets-btn" class="petSearch-filter-param-btn js-sanitize-submit">Find Pets</button>
+                </li>
+            </ul>
+        </fieldset>
+
+            </div>
+</form>
+
+        </form>
+      </main>
   </body>
 </html>
