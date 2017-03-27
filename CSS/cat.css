@@ -16,6 +16,7 @@ h1 {
 
 .image123 {
 margin-left: auto;
+border-radius: 100px;
 }
 
 .imgContainer:hover {
