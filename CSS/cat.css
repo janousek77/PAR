@@ -2,23 +2,25 @@
 
 .imgContainer{
     float:left;
-    margin-left: 50px;
+    margin-left: 87px;
 
 }
 body {
-    background-image:url("img/background.jpg");"
+    background-image: url("../img/background.jpg");
+    background-size: cover;
 }
 h1 {
   text-align: center;
   font-size: 50px;
   font-family: fantasy;
-}
-.image123 {
-  margin: auto;
-}
+
 .imgContainer:hover {
 
-        -webkit-transform: scale(1.10);
-        -ms-transform: scale(1.10);
-        transform: scale(1.10);
+        -webkit-transform: scale(1.50);
+        -ms-transform: scale(1.50);
+        transform: scale(1.50);
+}
+
+.image123 {
+margin-left: auto;
 }
