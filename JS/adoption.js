@@ -1,21 +1,18 @@
-'use strict'
+'use strict';
 
-(function () {
-  var form = document.getElementById ('login');
+var elStoreForm = document.getElementById('login');
+function submitButton(event) {
+  event.preventDefault();
+  var elements = this.elements;
+  var user = {
+    fname : elements.fname.value,
+    lname : elements.lname.value,
+    address : elements.address.value,
+    email : elements.email.value
+  };
+  var myJSON = JSON.stringify(user);
+  localStorage.setItem('userInfo', myJSON);
+  location.replace('subform.html');
+};
 
-  addEvent(form, 'submit', function(e)  {
-    e.preventDefault();
-    var elements = this.elements;
-    var fname = elements.fname.value;
-    var lname = elements.lname.value;
-    var address = elements.address.value;
-    var email = elements.email.value;
-    var phone = phone.value;
-    var catid = catid.value;
-    var contact = contact.value;
-
-    var myJSON = JSON.stringify(info);
-    localStorage.setItem('userInfo', myJSON);
-
-  });
-}());
+elStoreForm.addEventListener('submit',submitButton);
