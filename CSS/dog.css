@@ -1,0 +1,43 @@
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
+ }
+
+.imgContainer{
+  float:left;
+  margin-left: 87px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+}
+
+.image123 {
+margin-left: auto;
+border-radius: 100px;
+}
+
+.imgContainer:hover {
+  transform: scale(1.75);
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.imgContainer p {
+  height:100px;
+  width:180px;
+  overflow:auto;
+  background: rgba(0, 0, 0, .6);
+  color:white;
+  scrollbar-base-color:gold;
+  font-family:sans-serif;padding:10px;
+  font-size: 13px;
+}
