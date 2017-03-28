@@ -1,19 +1,14 @@
 html, body{
-    overflow-x:hidden;
-    font: 400 1em/1 "Droid Sans";
-    text-align: center;
-      width:100%;
-      height:99.9%;
-      min-width: 400px;
-      min-height: 400px;
-      background-size: cover;
-  background: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/classy_fabric.png) repeat center center fixed;
-padding-top:2px;
+  overflow-x:hidden;
+  font: 400 1em/1 "Droid Sans";
+  text-align: center;
+  width:100%;
+  height:99.9%;
+  min-width: 400px;
+  min-height: 400px;
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
-
-@import url(http://fonts.googleapis.com/css?family=PT+Serif);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 h1 {
   font:  400 2em/1 'Roboto', sans-serif;
@@ -25,7 +20,7 @@ h2 {
   text-align:left;
   font: 400 0.75em/1 'Roboto', sans-serif;
   margin: 0 0 0;
- width:5%;
+  width:5%;
   color:#fff;
 
   padding:20px;
@@ -35,10 +30,13 @@ h2 {
 
 [class*="fontawesome-"]:before {
   font-family: "FontAwesome", sans-serif;
-   margin-right: 0.3em;
+  margin-right: 0.3em;
 }
 
-.fontawesome-email a{display:inline; padding:0 5px;font-size:20px;
+.fontawesome-email a{
+  display:inline;
+  padding:0 5px;
+  font-size:20px;
 }
 
 .fbook i:hover {
@@ -46,10 +44,6 @@ h2 {
   text-decoration: none;
 }
 
-.gplus i:hover {
-  color: #dd4b39;
-  text-decoration: none;
-}
 
 .insta i:hover {
   color: #517fa4;
@@ -66,7 +60,12 @@ h2 {
   text-decoration: none;
 }
 
-.portrait-container {
+.email i:hover {
+  color: #FAAF3A;
+  text-decoration: none;
+}
+
+main{
   max-width: 1020px;
   height:200px;
   margin: 0 auto;
@@ -104,13 +103,13 @@ h2 {
   padding: 5px;
   height: 360px;
   width:191px;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, 1);
   transition: all 0.2s ease-in-out;
   border-bottom:2px solid rgba(0,200,255,.5);
 }
 
 .title {
-text-transform:uppercase;
+    text-transform:uppercase;
   background:rgba(0,200,255,.5);
 }
 
@@ -131,17 +130,17 @@ text-transform:uppercase;
 }
 
 p {
-font-size: .94em;
-line-height: 1.25em;
-margin: 0.625em 0;
-padding:.25;
-text-align: justify;
-word-break: break-all;
+  font-size: .94em;
+  line-height: 1.25em;
+  margin: 0.625em 0;
+  padding:.25;
+  text-align: justify;
+  word-break: break-all;
 }
 
 p:first-line {
-font-size:1.10em;
-font-variant:small-caps;
+  font-size:1.10em;
+  font-variant:small-caps;
 }
 
 .portrait-details li:first-child {
@@ -166,7 +165,7 @@ font-variant:small-caps;
 .portrait-details li a {
   color: inherit;
   cursor: pointer;
- line-height:1rem;
+  line-height:1rem;
 }
 
 .fortunato{
@@ -181,4 +180,113 @@ font-variant:small-caps;
   width:100%;
   display:table;
   margin:0;
+}
+
+#fortunatoTitle{
+  border-top:2px solid #fff;
+  border-bottom:2px solid #fff;
+  letter-spacing:3.5px;
+  padding-bottom:18px;
+  margin:-5px 0 20px;
+}
+
+#seanTitle{
+  border-top:2px solid #fff;
+  border-bottom:2px solid #fff;
+  letter-spacing:3.5px;
+  padding-bottom:18px;
+  margin:-5px 0 20px;
+  background:transparent;
+}
+
+#chrisTitle{
+  border:2px solid #fff;
+  letter-spacing:3.5px;
+  padding-bottom:18px;
+  margin:-5px 0 20px;
+}
+
+#longName{
+  margin-left: -3px;
+}
+
+.wood {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  margin-left: -385px;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	}
+
+nav ul {
+	background: #FFF;
+	background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+	background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+	background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+  position: relative;
+  margin-left: 0px;
+}
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+	}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover {
+	background: #8EA9B9;
+	background: linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #8EA9B9 0%,#5f6975 40%);
+}
+
+nav ul li:hover a {
+	color: #8EA9B9;
+}
+
+nav ul li a {
+	display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+
+}
+
+nav ul ul {
+  background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+  margin-left: 10px;
+}
+
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}
+
+nav ul ul li a:hover {
+	background: #8EA9B9;
+}
+
+nav ul ul ul {
+  position: absolute; left: 100%; top:0;
 }
