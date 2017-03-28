@@ -4,10 +4,11 @@ body {
   max-width: 100%;
   overflow-x: hidden;
  }
- 
+
 .imgContainer{
   float:left;
   margin-left: 87px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -22,7 +23,7 @@ border-radius: 100px;
 }
 
 .imgContainer:hover {
-  transform: scale(1.50);
+  transform: scale(1.75);
 }
 
 img{
@@ -34,7 +35,7 @@ img{
   height:100px;
   width:180px;
   overflow:auto;
-  background-color:yellowgreen;
+  background: rgba(0, 0, 0, .6);
   color:white;
   scrollbar-base-color:gold;
   font-family:sans-serif;padding:10px;
