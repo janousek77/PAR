@@ -20,8 +20,8 @@ function submitChoice(event){
   else if(animalChoice.value === 'dog' && ageChoice.value === 'adult'){
     window.location.href = 'adult_dog.html';
   }
-  else if(animalChoice.value === 'cat' && ageChoice.value === 'old'){
-    window.location.href = 'elderly_cat.html';
+  else if(animalChoice.value === 'dog' && ageChoice.value === 'elderly'){
+    window.location.href = 'elderly_dog.html';
   }
   else if(animalChoice.value === 'cat' && ageChoice.value === 'any'){
     window.location.href = 'cat.html';
@@ -32,7 +32,7 @@ function submitChoice(event){
   else if(animalChoice.value === 'cat' && ageChoice.value === 'adult'){
     window.location.href = 'adult_cat.html';
   }
-  else if(animalChoice.value === 'cat' && ageChoice.value === 'old'){
+  else if(animalChoice.value === 'cat' && ageChoice.value === 'elderly'){
     window.location.href = 'elderly_cat.html';
   }
 };
