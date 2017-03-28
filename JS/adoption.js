@@ -1,4 +1,4 @@
-var adopform = []
+'use strict'
 
 (function () {
   var form = document.getElementById ('login');
@@ -10,14 +10,12 @@ var adopform = []
     var lname = elements.lname.value;
     var address = elements.address.value;
     var email = elements.email.value;
-    var phone = elements.phone.value;
-    var catid = elements.catid.value;
-    var contact = elements.fname.value;
-    var msg = fname + lname;
-    document.getElementbyId('hola').textContent = msg;
+    var phone = phone.value;
+    var catid = catid.value;
+    var contact = contact.value;
 
-    var myObj = 
-    var myJSON = JSON.stringify(myObj);
-    //window.location = "demo_json.php?x=" + myJSON;
+    var myJSON = JSON.stringify(info);
+    localStorage.setItem('userInfo', myJSON);
+
   });
 }());
