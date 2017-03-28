@@ -212,9 +212,11 @@ p:first-line {
 
 .wood {
   position: absolute;
-  width: 60%;
-  height: 100%;
-  margin-left: -385px;
+  text-align: center;
+  float:left;
+  height:100%;
+  width:60%;
+  margin-left: -383px;
 }
 
 nav ul ul {
