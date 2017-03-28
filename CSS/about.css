@@ -237,7 +237,7 @@ nav ul {
 	position: relative;
 	display: inline-table;
   position: relative;
-  margin-left: -200px;
+  margin-left: 0px;
 }
 
 nav ul:after {
@@ -268,7 +268,7 @@ nav ul li a {
 nav ul ul {
   background: #5f6975; border-radius: 0px; padding: 0;
 	position: absolute; top: 100%;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 nav ul ul li {
