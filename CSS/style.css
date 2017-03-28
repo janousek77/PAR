@@ -29,33 +29,6 @@ body {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-.topnav {
-  background-color: #B24F4E;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  margin-left:143px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
 .petSearch {
   position: relative;
   margin-top: 10px;
