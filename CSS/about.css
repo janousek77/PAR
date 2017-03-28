@@ -211,9 +211,8 @@ p:first-line {
 }
 
 .wood {
-  position: absolute;
+  position: fixed;
   text-align: center;
-  float:left;
   height:100%;
   width:60%;
   margin-left: -383px;

@@ -9,16 +9,24 @@
 }
 
 body {
-
-  background: url(../img/background.jpg) no-repeat center center fixed;
-  background-size: cover;
-  max-width: 100%;
-  overflow-x: hidden;
+  background-color: #465767;
  }
 
-header {
-  width: auto;
-  height: auto;
+.title {
+  color:#D0C1A0;
+  font-size:32pt;
+  font-family: 'Playfair Display', serif;
+  float:left;
+  margin-top:0pt;
+}
+
+.subtitle {
+  color:#E2E0D4;
+  font-size:14pt;
+  float:left;
+  margin-top:0pt;
+  margin-left:17px;
+  text-decoration: underline;
 }
 
 .petSearch {
@@ -49,7 +57,7 @@ nav ul {
 	position: relative;
 	display: inline-table;
   position: relative;
-  margin-left: 340px;
+  margin-left: 70px;
 }
 
 nav ul:after {
@@ -209,11 +217,61 @@ nav ul ul ul {
     background: #109177;
 }
 
-.wood {
-  position: absolute;
+/*.wood {
+  position: fixed;
   text-align:center;
   width:60%;
   height:100%;
   display:block;
   margin-left:250px;
+}*/
+
+/*.dog {
+  position:absolute;
+  text-align: center;
+  display: inline-block;
+  margin-left: 450px;
+  margin-top: 200px;
+}*/
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/Puppiness.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
 }
