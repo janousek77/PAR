@@ -16,3 +16,14 @@ body {
   font-family: fantasy;
   font-size: 40px;
 }
+
+.out-put{
+
+  text-align: left;;
+  font-style: normal;
+  font-size: 20px;
+  border-style: dotted;
+  margin: auto;
+  height: 320px;
+  width: 400px;
+}
