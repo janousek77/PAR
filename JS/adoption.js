@@ -8,10 +8,13 @@ function submitButton(event) {
     fname : elements.fname.value,
     lname : elements.lname.value,
     address : elements.address.value,
-    email : elements.email.value
+    email : elements.email.value,
+    phone : elements.phone.value,
+    catid : elements.catid.value,
+    contact : elements.contact.value
   };
   var myJSON = JSON.stringify(user);
-  localStorage.setItem('userInfo', myJSON);
+  localStorage.setItem('userinfo', myJSON);
   location.replace('subform.html');
 };
 
