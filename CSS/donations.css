@@ -14,17 +14,23 @@
 
 
 .logos {
-
+  float: left;
   margin-top: 10px;
   position: absolute;
-  margin-left: 300px;
+  margin-left: 200px;
   overflow: hidden;
-
+  width: 300px;
+  overflow: hidden;
+}
+.bot {
+  float: left;
+  margin-left: 80px;
 }
 
 .images {
 
 margin-left: 80px;
+float: left;
 
 }
 
