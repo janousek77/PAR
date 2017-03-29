@@ -2,39 +2,81 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Puppies up for Adoption</title>
+    <title>Dogs up for Adoption</title>
     <link rel="stylesheet" href="CSS/cssreset.css">
     <link rel="stylesheet" href="CSS/dog.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   </head>
   <body>
-<nav>
-
-</nav>
-<header>
-  <h1>Dogs up for Adoption<h1>
-</header>
-<content>
+    <header>
+      <p class="title">PAR</p><br />
+      <p class="subtitle">Project Animal Rescue</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="adoption.html">Adoption Form</a></li>
+          <li><a href="donations.html">Donations</a></li>
+        </ul>
+      </nav>
+      </header>
+    <aside class="leftSide">
+      <form id="submitChoice">
+          <div class="petSearch">
+        <fieldset>
+        <legend>Find A Pet To Adopt</legend>
+        <label for="animal1">Type</label>
+        <select id="animal1" name="animal">
+        <optgroup label="Type">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </optgroup>
+      </select>
+      </fieldset>
+      <fieldset>
+        <label for="age1">Age</label>
+        <select id="age1" name="age">
+        <optgroup label="Age">
+          <option value="any">Any</option>
+          <option value="young">Young</option>
+          <option value="adult">Adult</option>
+          <option value="elderly">Elderly</option>
+        </select>
+        </fieldset>
+        <input type="submit" value="Search"/>
+          </div>
+        </form>
+    </aside>
+<main>
+  <h1>Seattle area puppies in need<h1>
+  <div class="image123">
     <a href="adoption.html" ><div class="imgContainer">
       <img src="animal_pics/dogs/puppy/Nate.jpg"/>
+      <h2>Nate</h2><div class="description">
       <p>Hey, I'm Nate! At ten months old I'm just a big puppy who's very energetic, athletic and exuberant! I arrived at the shelter as a stray, and I'm really looking forward to having a family and home of my very own.
       While I haven't had much training, I'm a smart guy, and already I've learned to sit politely when offered a tasty treat. I'm super food motivated, and am sure to be a star in manners class. In case you didn't notice, I'm one handsome dude! My coat is sleek and shiny and my eyes twinkle with glee.
-      Stuff I'd probably be great at - agility, fly ball, hiking and jogging, swimming and fetch! My ideal home will be as active and athletic as me, and have some prior dog experience. I'm good with kids age ten and up, and, I really prefer humans to other dogs. Let's meet! </p>
-      </div>
+      </p><p>
+      Stuff I'd probably be great at - agility, fly ball, hiking and jogging, swimming and fetch! My ideal home will be as active and athletic as me, and have some prior dog experience. I'm good with kids age ten and up, and, I really prefer humans to other dogs. Let's meet! </p></div>
+      </div></a>
     <a href="adoption.html" ><div class="imgContainer">
       <img src="animal_pics/dogs/puppy/Poli.jpg"/>
-      <p>Poli is a special puppy that is in need of a home that understands her. She is frightened of new situations and people. Her reaction is to bark, growl and sometimes nip. She really wants a lap to sleep on and a family to love her. Right now Poli will need an adult only home until she goes through training and learns to trust. She does like other dogs her size but will be too scared of large dogs.</p>
-      </div>
+      <h2>Poli</h2><div class="description">
+      <p>Poli is a special puppy that is in need of a home that understands her. She is frightened of new situations and people. Her reaction is to bark, growl and sometimes nip. She really wants a lap to sleep on and a family to love her. Right now Poli will need an adult only home until she goes through training and learns to trust. She does like other dogs her size but will be too scared of large dogs.</p></div>
+      </div></a>
     <a href="adoption.html" ><div class="imgContainer">
       <img src="animal_pics/dogs/puppy/Wenatchee.jpg"/>
-      <p>This tiny little pup Wenatchee has been in foster care his entire life getting lots of love and socialization. His mom weighs about 17lbs so he will likely be around the same size or smaller. We don't know what breed he is but we are guessing they are Chihuahua/Terrier mixes.</p>
-      </div>
-    </div>
+      <h2>Wenatchee</h2><div class="description">
+      <p>This tiny little pup Wenatchee has been in foster care his entire life getting lots of love and socialization. His mom weighs about 17lbs so he will likely be around the same size or smaller. We don't know what breed he is but we are guessing they are Chihuahua/Terrier mixes.</p></div>
+      </div></a>
     <a href="adoption.html" ><div class="imgContainer">
       <img src="animal_pics/dogs/puppy/fauxpas.jpg"/>
-      <p>Hi, my name is Faux Pas! I am very nervous and don't like fast, darting movements towards me. I will come to you if you are patient and let me check you out, I will reward you with kisses. I love my walks with the AVHS volunteers, they say I love to run in the back yard and jump when I'm out walking. If you would like to meet me, please ask the front desk staff for assistance.</p>
-      </div>
+      <h2>Faux Pas</h2><div class="description">
+      <p>Hi, my name is Faux Pas! I am very nervous and don't like fast, darting movements towards me. I will come to you if you are patient and let me check you out, I will reward you with kisses. I love my walks with the AVHS volunteers, they say I love to run in the back yard and jump when I'm out walking. If you would like to meet me, please ask the front desk staff for assistance.</p></div>
+      </div></a>
     </div>
-
-</content>
+</main>
+<aside class="right"></aside>
+<script type="text/javascript" src="js/app.js"></script>
  <body>
 </html>
