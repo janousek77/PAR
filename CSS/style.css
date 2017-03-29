@@ -1,6 +1,7 @@
 
 html {
   height:100%;
+  overflow:scroll;
 }
 
 .imgContainer{
@@ -130,7 +131,7 @@ nav ul ul ul {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 13px;
     width: 125px;
-    height: 350px;
+    height: 330px;
     position:fixed;
     margin-top: 80pt;
 }
@@ -175,7 +176,7 @@ nav ul ul ul {
 }
 .petSearch
  select{
-    height:30px;
+    height:40px;
 }
 .petSearch
  .number {
@@ -276,10 +277,10 @@ nav ul ul ul {
 .main_text {
   color: #000;
   font-size: 18pt;
-  position: absolute;
-  margin-left: 80pt;
+  position: fixed;
+  margin-left: 40pt;
   text-align: center;
-  margin-top: 600px;
+  margin-top: 700px;
 }
 
 .fullscreen-cg {
