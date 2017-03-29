@@ -1,7 +1,7 @@
 
 html {
   height:100%;
-  overflow:scroll;
+  overflow:hidden;
 }
 
 .imgContainer{
@@ -30,7 +30,7 @@ body {
   float:left;
   margin-top:0pt;
   margin-left:15px;
-  position: fixed;
+  position: absolute;
 }
 
 .subtitle {
@@ -40,7 +40,7 @@ body {
   margin-top:10pt;
   margin-left:180px;
   text-decoration: underline;
-  position: fixed;
+  position: absolute;
 }
 
 nav ul ul {
@@ -59,7 +59,7 @@ nav ul {
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0px;
 	list-style: none;
-	position: fixed;
+	position: absolute;
 	display: inline-table;
   margin-left: 360px;
   border-radius: 30pt;
@@ -132,7 +132,7 @@ nav ul ul ul {
     margin-left: 13px;
     width: 125px;
     height: 330px;
-    position:fixed;
+    position:absolute;
     margin-top: 80pt;
 }
 
@@ -221,7 +221,7 @@ nav ul ul ul {
 }
 
 .fullscreen-bg {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -265,7 +265,7 @@ nav ul ul ul {
 .picture_text {
   color: #FFF;
   font-size: 25pt;
-  position:fixed;
+  position:absolute;
   margin-left: 210pt;
   margin-top: 340pt;
   margin-bottom: 30pt;
@@ -277,50 +277,8 @@ nav ul ul ul {
 .main_text {
   color: #000;
   font-size: 18pt;
-  position: fixed;
+  position: absolute;
   margin-left: 40pt;
   text-align: center;
-  margin-top: 700px;
-}
-
-.fullscreen-cg {
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-}
-
-.fullscreen-cg__video {
-  position: absolute;
-  top: 0;
-  left: 15%;
-  width: 70%;
-  height: 70%;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .fullscreen-cg__video {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .fullscreen-cg__video {
-    width: 300%;
-    left: -100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .fullscreen-cg {
-    background: url('../video/Dog_andFlowers.jpg') center center / cover no-repeat;
-  }
-
-.fullscreen-cg__video {
-  display: none;
-  }
+  margin-top: 0px;
 }
