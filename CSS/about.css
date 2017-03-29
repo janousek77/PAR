@@ -6,8 +6,8 @@ html, body{
   height:99.9%;
   min-width: 400px;
   min-height: 400px;
-  background: url(../img/background.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 60%, rgba(255,255,255,1) 100%);
 }
 
 h1 {
@@ -22,7 +22,6 @@ h2 {
   margin: 0 0 0;
   width:5%;
   color:#fff;
-
   padding:20px;
   border-left:4px solid rgba(255,255,255, .1);
   background:rgba(0,0,0, .5);
@@ -43,7 +42,6 @@ h2 {
   color: #3b5998;
   text-decoration: none;
 }
-
 
 .insta i:hover {
   color: #517fa4;
@@ -210,14 +208,6 @@ p:first-line {
   margin-left: -3px;
 }
 
-.wood {
-  position: fixed;
-  text-align: center;
-  height:100%;
-  width:60%;
-  margin-left: -383px;
-}
-
 nav ul ul {
 	display: none;
 }
@@ -232,13 +222,13 @@ nav ul {
 	background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
 	background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 20px;
-	border-radius: 10px;
+	padding: 0px;
 	list-style: none;
 	position: relative;
 	display: inline-table;
   position: relative;
-  margin-left: 0px;
+  margin-left: 10px;
+  border-radius: 30pt;
 }
 
 nav ul:after {
@@ -254,10 +244,15 @@ nav ul li:hover {
 	background: linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
 	background: -moz-linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
 	background: -webkit-linear-gradient(top, #8EA9B9 0%,#5f6975 40%);
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
 }
 
 nav ul li:hover a {
 	color: #8EA9B9;
+  color: #FFF;
 }
 
 nav ul li a {
@@ -269,7 +264,7 @@ nav ul li a {
 nav ul ul {
   background: #5f6975; border-radius: 0px; padding: 0;
 	position: absolute; top: 100%;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 nav ul ul li {

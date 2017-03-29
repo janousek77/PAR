@@ -1,4 +1,8 @@
 
+html {
+  height:100%;
+}
+
 .imgContainer{
   float:left;
   margin-top: 30px;
@@ -10,11 +14,13 @@
 
 body {
   background-color: #465767;
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 80%, rgba(255,255,255,1) 100%);
  }
 
 .title {
   color:#D0C1A0;
-  font-size:40pt;
+  font-size:60pt;
   font-family: 'Playfair Display', serif;
   float:left;
   margin-top:0pt;
@@ -29,14 +35,6 @@ body {
   text-decoration: underline;
 }
 
-.petSearch {
-  position: relative;
-  margin-top: 10px;
-  margin-right: 1100px;
-  width: 150px;
-  height: 800px;
-}
-
 nav ul ul {
 	display: none;
 }
@@ -48,15 +46,14 @@ nav ul li:hover > ul {
 nav ul {
 	background: #FFF;
 	background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-	background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-	background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
+  background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+  background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0px;
 	list-style: none;
 	position: relative;
 	display: inline-table;
-  position: relative;
-  margin-left: 60px;
+  margin-left: 18px;
   border-radius: 30pt;
 }
 
@@ -71,8 +68,6 @@ nav ul li {
 nav ul li:hover {
 	background: #8EA9B9;
 	background: linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
-	background: -moz-linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
-	background: -webkit-linear-gradient(top, #8EA9B9 0%,#5f6975 40%);
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
   border-top-right-radius:30px;
@@ -81,6 +76,7 @@ nav ul li:hover {
 
 nav ul li:hover a {
 	color: #8EA9B9;
+  color: #FFF;
 }
 
 nav ul li a {
@@ -117,11 +113,11 @@ nav ul ul ul {
 
 .petSearch {
     max-width: 500px;
-    padding: 10px 20px;
-    background: #BCC6CC;
-    margin: 10px auto;
+    background: #FFF;
+    background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
     padding: 20px;
-    background: #BCC6CC;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 3px;
@@ -131,12 +127,12 @@ nav ul ul ul {
 
 .petSearch
  fieldset {
-    border: none;
+    border: 1px solid;
 }
 .petSearch
  legend {
     font-size: 1.2em;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .petSearch
  label {
@@ -147,22 +143,17 @@ nav ul ul ul {
 .petSearch
  select {
     font-family: Georgia, "Times New Roman", Times, serif;
-    background: rgba(255,255,255,.1);
-    border: none;
+    border: solid;
     border-radius: 4px;
     font-size: 16px;
-    margin: 0;
     outline: 0;
-    padding: 7px;
+    padding: 5px;
     width: 100%;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     background-color: #e8eeef;
     color:#8a97a0;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    margin-bottom: 30px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05) inset;
+    margin-bottom: 17px;
 
 }
 
@@ -174,7 +165,6 @@ nav ul ul ul {
 }
 .petSearch
  select{
-    -webkit-appearance: menulist-button;
     height:30px;
 }
 .petSearch
@@ -201,15 +191,14 @@ nav ul ul ul {
     display: block;
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    margin: 0 auto;
     background: #1abc9c;
     font-size: 16px;
     text-align: center;
     font-style: normal;
     width: 100%;
-    border: 1px solid #16a085;
+    border: 3px solid #16a085;
     border-width: 1px 1px 3px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .petSearch
@@ -219,23 +208,6 @@ nav ul ul ul {
 {
     background: #109177;
 }
-
-/*.wood {
-  position: fixed;
-  text-align:center;
-  width:60%;
-  height:100%;
-  display:block;
-  margin-left:250px;
-}*/
-
-/*.dog {
-  position:absolute;
-  text-align: center;
-  display: inline-block;
-  margin-left: 450px;
-  margin-top: 200px;
-}*/
 
 .fullscreen-bg {
   position: fixed;
