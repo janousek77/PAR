@@ -1,4 +1,8 @@
 
+html {
+  height:100%;
+}
+
 .imgContainer{
   float:left;
   margin-top: 30px;
@@ -10,6 +14,8 @@
 
 body {
   background-color: #465767;
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 80%, rgba(255,255,255,1) 100%);
  }
 
 .title {

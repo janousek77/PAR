@@ -6,8 +6,8 @@ html, body{
   height:99.9%;
   min-width: 400px;
   min-height: 400px;
-  background: url(../img/background.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 50%, rgba(255,255,255,1) 100%);
 }
 
 h1 {
@@ -22,7 +22,6 @@ h2 {
   margin: 0 0 0;
   width:5%;
   color:#fff;
-
   padding:20px;
   border-left:4px solid rgba(255,255,255, .1);
   background:rgba(0,0,0, .5);
@@ -43,7 +42,6 @@ h2 {
   color: #3b5998;
   text-decoration: none;
 }
-
 
 .insta i:hover {
   color: #517fa4;
