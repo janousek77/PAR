@@ -44,8 +44,10 @@ nav ul li:hover > ul {
 	}
 
 nav ul {
-	background: #BCC6CC;
-	background: linear-gradient(top, #BCC6CC 0%, #bbbbbb 100%);
+	background: #FFF;
+	background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+  background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+  background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0px;
 	list-style: none;
@@ -111,7 +113,10 @@ nav ul ul ul {
 
 .petSearch {
     max-width: 500px;
-    background: #BCC6CC;
+    background: #FFF;
+    background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
     padding: 20px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
