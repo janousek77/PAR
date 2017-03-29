@@ -1,7 +1,7 @@
 
 html {
   height:100%;
-  overflow:hidden;
+  overflow:scroll;
 }
 
 .imgContainer{
@@ -61,7 +61,7 @@ nav ul {
 	list-style: none;
 	position: absolute;
 	display: inline-table;
-  margin-left: 360px;
+  margin-left: 390px;
   border-radius: 30pt;
   margin-top:-150px;
 }
@@ -129,7 +129,7 @@ nav ul ul ul {
     padding: 20px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    margin-left: 13px;
+    margin-left: 15px;
     width: 125px;
     height: 330px;
     position:absolute;
@@ -267,7 +267,7 @@ nav ul ul ul {
   font-size: 25pt;
   position:absolute;
   margin-left: 210pt;
-  margin-top: 340pt;
+  margin-top: 220pt;
   margin-bottom: 30pt;
   text-align: center;
   font-weight: bold;
@@ -278,7 +278,10 @@ nav ul ul ul {
   color: #000;
   font-size: 18pt;
   position: absolute;
-  margin-left: 40pt;
+  margin-left: 120pt;
   text-align: center;
-  margin-top: 500px;
+  margin-top: 385px;
+  padding-left: 190px;
+  padding-right: 240px;
+  line-height: 35px;
 }
