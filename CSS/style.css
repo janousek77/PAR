@@ -63,7 +63,7 @@ nav ul {
 	display: inline-table;
   margin-left: 360px;
   border-radius: 30pt;
-  margin-top:0px;
+  margin-top:-150px;
 }
 
 nav ul:after {
@@ -133,7 +133,7 @@ nav ul ul ul {
     width: 125px;
     height: 330px;
     position:absolute;
-    margin-top: 80pt;
+    margin-top: -30pt;
 }
 
 .petSearch
