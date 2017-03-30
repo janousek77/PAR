@@ -119,6 +119,7 @@ nav ul ul li a {
 	padding: 15px 40px;
 	color: #fff;
   background-color: inherit;
+  margin-left: 10px;
 }
 
 nav ul ul li a:hover {
