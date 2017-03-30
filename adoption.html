@@ -5,9 +5,48 @@
     <title></title>
     <link rel="stylesheet" href="CSS/adoption.css">
   </head>
+  <header>
+    <p class="title">PAR</p><br />
+    <p class="subtitle">Project Animal Rescue</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="adoption.html">Adoption Form</a></li>
+        <li><a href="donations.html">Donations</a></li>
+      </ul>
+    </nav>
+    </header>
+  <aside class="side">
+    <form id="submitChoice">
+        <div class="petSearch">
+      <fieldset>
+      <legend>Find A Pet To Adopt</legend>
+      <label for="animal1">Type</label>
+      <select id="animal1" name="animal">
+      <optgroup label="Type">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+      </optgroup>
+    </select>
+    </fieldset>
+    <fieldset>
+      <label for="age1">Age</label>
+      <select id="age1" name="age">
+      <optgroup label="Age">
+        <option value="any">Any</option>
+        <option value="young">Young</option>
+        <option value="adult">Adult</option>
+        <option value="elderly">Elderly</option>
+      </select>
+      </fieldset>
+      <input type="submit" value="Search" />
+        </div>
+      </form>
+  </aside>
   <body>
     <h3 id="hola">Adoption form</h3>
-
 <div>
   <form id="login" target="subform.html">
     <label for="fname">First Name</label>
@@ -19,16 +58,16 @@
     <label for="address">Address</label>
     <input type="text" id="address" name="address" placeholder="# street city state zip code">
 
-    <label for="email">e-mail address</label>
+    <label for="email">E-Mail address</label>
     <input type="text" id="email" name="email" placeholder="name@domain.com">
 
     <label for="phone">Phone Number</label>
     <input type="text" id="phone" name="phone" placeholder="(555)555-5555)">
 
-    <label for="catid">Cat ID</label>
+    <label for="catid">Animal Name/ID</label>
     <input type="text" id="catid" name="catid" placeholder="ID #">
 
-    <label for="contact">Best way to contact you:</label>
+    <label for="contact">Preferred contact method</label>
     <select id="contact" name="contact">
       <option value="phone">Phone</option>
       <option value="e-mail">e-mal</option>
@@ -37,8 +76,7 @@
     <input type="submit" value="Submit">
   </form>
 </div>
-<script type="text/javascript" src="JS/adoption.js">
-
-</script>
+<script type="text/javascript" src="JS/adoption.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
