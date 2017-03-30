@@ -389,3 +389,15 @@ nav ul ul ul {
   clear: left;
   padding: 2px;
 }
+
+#footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 12pt;
+  font-family: arial;
+  background-color: #918987;
+  height: 15pt;
+  margin-bottom: 30pt;
+  padding: 1rem;
+}
