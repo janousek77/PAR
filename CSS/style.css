@@ -351,3 +351,41 @@ nav ul ul ul {
   list-style-type: disc;
   margin-left: 300pt;
 }
+
+.main_text3 {
+  color: #000;
+  margin-top: 40pt;
+  margin-left: 10pt;
+  margin-right: 100pt;
+  font-size: 18pt;
+  text-indent: 2em;
+  line-height: 30pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cat {
+  margin-right: 30pt;
+  margin-top: 0pt;
+  border: 1px solid black;
+  float: right;
+  clear: right;
+  padding: 2px;
+}
+
+.navigating {
+  font-size: 15pt;
+  font-family: sans-serif;
+  line-height: 30pt;
+  list-style-type: disc;
+  margin-left: 300pt;
+}
+
+.dog3 {
+  margin-left: 30pt;
+  margin-top: -300pt;
+  border: 1px solid black;
+  float: left;
+  clear: left;
+  padding: 2px;
+}
