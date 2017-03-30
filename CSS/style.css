@@ -332,6 +332,7 @@ nav ul ul ul {
   font-size: 18pt;
   text-indent: 2em;
   line-height: 30pt;
+  font-weight: bold;
 }
 
 .dog2 {
@@ -341,4 +342,12 @@ nav ul ul ul {
   float: left;
   clear: left;
   padding: 2px;
+}
+
+.principles {
+  font-size: 15pt;
+  font-family: sans-serif;
+  line-height: 30pt;
+  list-style-type: disc;
+  margin-left: 300pt;
 }
