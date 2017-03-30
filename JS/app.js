@@ -11,7 +11,10 @@ function submitChoice(event){
   var ageChoice = age.options[age.selectedIndex];
   console.log(ageChoice.value);
 
-  if(animalChoice.value === 'dog' && ageChoice.value === 'any'){
+  if(animalChoice.value === 'any' && ageChoice.value === 'any'){
+    window.location.href = 'all.html';
+  }
+  else if(animalChoice.value === 'dog' && ageChoice.value === 'any'){
     window.location.href = 'dog.html';
   }
   else if(animalChoice.value === 'dog' && ageChoice.value === 'young'){
