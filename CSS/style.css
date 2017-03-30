@@ -64,6 +64,7 @@ nav ul {
   margin-left: 390px;
   border-radius: 30pt;
   margin-top:-150px;
+  border: 1px solid black;
 }
 
 nav ul:after {
@@ -134,6 +135,7 @@ nav ul ul ul {
     height: 330px;
     position:absolute;
     margin-top: -30pt;
+    border: 0.5px solid black;
 }
 
 .petSearch
@@ -254,7 +256,7 @@ nav ul ul ul {
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/Puppiness.jpg') center center / cover no-repeat;
+    background: url('img/Puppiness.jpg') center center / cover no-repeat;
   }
 
 .fullscreen-bg__video {
@@ -322,7 +324,7 @@ nav ul ul ul {
 
 .dog2 {
   margin-left: 30pt;
-  margin-top: 5pt;
+  margin-top: 8pt;
   border: 1px solid black;
   float: left;
   clear: left;
