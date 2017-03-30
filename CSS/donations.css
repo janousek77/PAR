@@ -10,28 +10,53 @@
       background: rgba(70,87,103,0.9);
       background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 60%, rgba(255,255,255,1) 100%);
 
-    }
+}
+.globe {
+margin-left: 20;
+}
 
-
-.logos {
-  float: left;
-  margin-top: 10px;
-  position: absolute;
-  margin-left: 200px;
-  overflow: hidden;
-  width: 300px;
-  overflow: hidden;
 }
 .bot {
-  float: left;
-  margin-left: 80px;
+  float: left;;
+  margin-left: 80;
 }
 
 .images {
 
-margin-left: 80px;
-float: left;
+margin-left: 200px:;
+width: 200px;
+padding: 10px;
+}
 
+.bot:hover {
+  transform: scale(1.75);
+}
+
+.logos1 {
+
+  overflow: hidden;
+  float: left;
+  display:inline-block;
+  border: 10px solid none;
+   margin: 0px;
+}
+
+.logos {
+
+  overflow: hidden;
+  float: left;
+  display:inline-block;
+  border: 10px solid none;
+   margin: 0px;
+}
+
+.logos2 {
+
+  overflow: hidden;
+  float: left;
+  display:inline-block;
+  border: 10px solid none;
+   margin: 0px;
 }
 
 nav{

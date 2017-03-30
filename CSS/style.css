@@ -1,7 +1,7 @@
 
 html {
   height:100%;
-  overflow:scroll;
+  overflow:inherit;
 }
 
 .imgContainer{
@@ -14,16 +14,18 @@ html {
 }
 
 body {
-  background-color: #465767;
+  /*background-color: #465767;*/
   background: rgba(70,87,103,0.9);
-  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 80%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 0%, rgba(128,140,151,0.9) 40%, rgba(255,255,255,1) 100%);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #000;
  }
 
 .title {
+  background-color: inherit;
   color:#D0C1A0;
   font-size:60pt;
   font-family: 'Playfair Display', serif;
@@ -34,6 +36,7 @@ body {
 }
 
 .subtitle {
+  background-color: inherit;
   color:#E2E0D4;
   font-size:14pt;
   float:left;
@@ -52,10 +55,11 @@ nav ul li:hover > ul {
 	}
 
 nav ul {
-	background: #FFF;
-	background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-  background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-  background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
+  color: inherit;
+	background-color: #FFF;
+	background: linear-gradient(#FFF 0%, #bbbbbb 100%);
+  /*background: -moz-linear-gradient(#FFF 0%, #bbbbbb 100%);
+  background: -webkit-linear-gradient(#FFF 0%,#bbbbbb 100%);*/
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0px;
 	list-style: none;
@@ -64,6 +68,7 @@ nav ul {
   margin-left: 390px;
   border-radius: 30pt;
   margin-top:-150px;
+  border: 1px solid black;
 }
 
 nav ul:after {
@@ -75,8 +80,9 @@ nav ul li {
 }
 
 nav ul li:hover {
+  color:inherit;
 	background: #8EA9B9;
-	background: linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
+	background: linear-gradient(#8EA9B9 0%, #5f6975 40%);
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
   border-top-right-radius:30px;
@@ -84,17 +90,19 @@ nav ul li:hover {
 }
 
 nav ul li:hover a {
-	color: #8EA9B9;
+  background-color: inherit;
   color: #FFF;
 }
 
 nav ul li a {
+  background-color: inherit;
 	display: block; padding: 25px 40px;
 	color: #757575; text-decoration: none;
 
 }
 
 nav ul ul {
+  color: inherit;
   background: #5f6975; border-radius: 0px; padding: 0;
 	position: absolute; top: 100%;
   margin-left: 30px;
@@ -110,10 +118,12 @@ nav ul ul li {
 nav ul ul li a {
 	padding: 15px 40px;
 	color: #fff;
+  background-color: inherit;
 }
 
 nav ul ul li a:hover {
 	background: #8EA9B9;
+  color: inherit;
 }
 
 nav ul ul ul {
@@ -122,10 +132,11 @@ nav ul ul ul {
 
 .petSearch {
     max-width: 500px;
+    color: inherit;
     background: #FFF;
-    background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-    background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
+    background: linear-gradient(#FFF 0%, #bbbbbb 100%);
+    /*background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);*/
     padding: 20px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -134,6 +145,7 @@ nav ul ul ul {
     height: 330px;
     position:absolute;
     margin-top: -30pt;
+    border: 1px solid black;
 }
 
 .petSearch
@@ -173,6 +185,7 @@ nav ul ul ul {
 .petSearch
  select:focus{
     background: #FFF;
+    color: inherit;
 }
 .petSearch
  select{
@@ -218,6 +231,7 @@ nav ul ul ul {
  input[type="button"]:hover
 {
     background: #109177;
+    color: inherit;
 }
 
 .fullscreen-bg {
@@ -276,12 +290,55 @@ nav ul ul ul {
 
 .main_text {
   color: #000;
+  margin-top: 400pt;
+  margin-right: 100pt;
   font-size: 18pt;
-  position: absolute;
-  margin-left: 120pt;
-  text-align: center;
-  margin-top: 385px;
-  padding-left: 190px;
-  padding-right: 240px;
-  line-height: 35px;
+  text-indent: 2em;
+  line-height: 30pt;
+}
+
+.dog {
+  margin-left: 30pt;
+  margin-top: -60pt;
+  border: 1px solid black;
+  float: left;
+  clear: left;
+  padding: 2px;
+}
+
+.main_text1 {
+  color: #000;
+  margin-top: 40pt;
+  margin-left: 30pt;
+  margin-right: 100pt;
+  font-size: 18pt;
+  text-indent: 2em;
+  line-height: 30pt;
+}
+
+.dog1 {
+  margin-right: 30pt;
+  margin-top: 0pt;
+  border: 1px solid black;
+  float: right;
+  clear: right;
+  padding: 2px;
+}
+
+.main_text2 {
+  color: #000;
+  margin-top: 90pt;
+  margin-right: 100pt;
+  font-size: 18pt;
+  text-indent: 2em;
+  line-height: 30pt;
+}
+
+.dog2 {
+  margin-left: 30pt;
+  margin-top: 5pt;
+  border: 1px solid black;
+  float: left;
+  clear: left;
+  padding: 2px;
 }
