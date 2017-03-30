@@ -4,8 +4,49 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="CSS/subform.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <p class="title">PAR</p><br />
+      <p class="subtitle">Project Animal Rescue</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="adoption.html">Adoption Form</a></li>
+          <li><a href="donations.html">Donations</a></li>
+        </ul>
+      </nav>
+      </header>
+    <aside class="side">
+      <form id="submitChoice">
+          <div class="petSearch">
+        <fieldset>
+        <legend>Find A Pet To Adopt</legend>
+        <label for="animal1">Type</label>
+        <select id="animal1" name="animal">
+        <optgroup label="Type">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </optgroup>
+      </select>
+      </fieldset>
+      <fieldset>
+        <label for="age1">Age</label>
+        <select id="age1" name="age">
+        <optgroup label="Age">
+          <option value="any">Any</option>
+          <option value="young">Young</option>
+          <option value="adult">Adult</option>
+          <option value="elderly">Elderly</option>
+        </select>
+        </fieldset>
+        <input type="submit" value="Search" />
+          </div>
+        </form>
+    </aside>
   <h1>Your Form has been submitted!!!</h1>
 <div class="out-put">
   <p id="firstname" ></p>
@@ -16,8 +57,7 @@
   <p id="catid" ></p>
   <p id="contact" ></p>
 </div>
-
-  <a id="back-home" href="index.html">Go Back Home</a>
   <script type="text/javascript" src="JS/subform.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
