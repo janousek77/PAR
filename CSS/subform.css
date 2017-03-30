@@ -5,27 +5,20 @@ h1 {
   font-size: 50px;
 }
 
-body{
-    overflow-x:hidden;
-    font: 400 1em/1 "Droid Sans";
-    text-align: center;
-    width:100%;
-    height:100%;
-    min-width: 400px;
-    min-height: 400px;
-    background-color: #465767;
-    background: rgba(70,87,103,0.9);
-    background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%, rgba(128,140,151,0.9) 80%, rgba(255,255,255,1) 100%);
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+body {
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 0%, rgba(128,140,151,0.9) 40%, rgba(255,255,255,1) 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000;
+ }
 
 .out-put{
   text-align: left;;
   font-style: normal;
   font-size: 20px;
-  border-style: dotted;
   margin: auto;
   height: 320px;
   width: 400px;
@@ -40,12 +33,13 @@ header{
   font-size:60pt;
   font-family: 'Playfair Display', serif;
   float:left;
-  margin-top:0pt;
+  margin-top:-8pt;
   margin-left:15px;
   position: fixed;
 }
 
 .subtitle {
+  background-color: inherit;
   color:#E2E0D4;
   font-size:14pt;
   float:left;
@@ -66,66 +60,9 @@ position: fixed;
   height: 10px;
 }
 
-
-.imgContainer{
-  float: left;
-  margin-left: 87px;
-  margin-bottom: 50px;
-  height: 350px;
-}
-
-h1{
-  text-align: center;
-  font-size: 50px;
-  font: rgba(0, 0, 0, .7);
-}
-
-.image123 {
-margin-left: 3.5%;
-border-radius: 100px;
-margin-top: 120px;
-}
-
-.imgContainer:hover {
-  transform: scale(1.75);
-}
-
-img{
-  height: 200px;
-  width: 200px;
-}
-
-.description{
-  height:100px;
-  width:180px;
-  overflow: hidden;
-  overflow-y: scroll;
-  background: rgba(0, 0, 0, .7);
-  color:white;
-  font-family:sans-serif;
-  padding:10px;
-  font-size: 13px;
-}
-
-h2{
-  font-size: 20px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  color: rgba(0, 0, 0, .7);
-}
-
-p{
-  text-align: left;
-}
-
-#up{
-  bottom: 50px;
-  right: 60px;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  position: fixed;
-  font-size: 1.3em;
+nav{
+  margin-left: 31.5%;
+  margin-top: -10pt;
 }
 
 nav ul ul {
@@ -137,17 +74,16 @@ nav ul li:hover > ul {
 	}
 
 nav ul {
-	background: #FFF;
-	background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-  background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-  background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
+  color: inherit;
+	background-color: #FFF;
+	background: linear-gradient(#FFF 0%, #bbbbbb 100%);
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0px;
 	list-style: none;
 	position: relative;
 	display: inline-table;
-  margin-left: 18px;
   border-radius: 30pt;
+  border: 1px solid black;
 }
 
 nav ul:after {
@@ -159,8 +95,9 @@ nav ul li {
 }
 
 nav ul li:hover {
+  color:inherit;
 	background: #8EA9B9;
-	background: linear-gradient(top, #8EA9B9 0%, #5f6975 40%);
+	background: linear-gradient(#8EA9B9 0%, #5f6975 40%);
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
   border-top-right-radius:30px;
@@ -168,17 +105,19 @@ nav ul li:hover {
 }
 
 nav ul li:hover a {
-	color: #8EA9B9;
+  background-color: inherit;
   color: #FFF;
 }
 
 nav ul li a {
+  background-color: inherit;
 	display: block; padding: 25px 40px;
 	color: #757575; text-decoration: none;
 
 }
 
 nav ul ul {
+  color: inherit;
   background: #5f6975; border-radius: 0px; padding: 0;
 	position: absolute; top: 100%;
   margin-left: 30px;
@@ -194,10 +133,12 @@ nav ul ul li {
 nav ul ul li a {
 	padding: 15px 40px;
 	color: #fff;
+  background-color: inherit;
 }
 
 nav ul ul li a:hover {
 	background: #8EA9B9;
+  color: inherit;
 }
 
 nav ul ul ul {
@@ -206,16 +147,18 @@ nav ul ul ul {
 
 .petSearch {
     max-width: 500px;
+    color: inherit;
     background: #FFF;
-    background: linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-    background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);
+    background: linear-gradient(#FFF 0%, #bbbbbb 100%);
     padding: 20px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    margin-left: 13px;
+    margin-left: 15px;
     width: 125px;
-    height: 350px;
+    height: 330px;
+    position:absolute;
+    margin-top: 18.5pt;
+    border: 1px solid black;
 }
 
 .petSearch
@@ -255,10 +198,11 @@ nav ul ul ul {
 .petSearch
  select:focus{
     background: #FFF;
+    color: inherit;
 }
 .petSearch
  select{
-    height:30px;
+    height:40px;
 }
 .petSearch
  .number {
@@ -300,4 +244,5 @@ nav ul ul ul {
  input[type="button"]:hover
 {
     background: #109177;
+    color: inherit;
 }

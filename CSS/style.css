@@ -6,6 +6,10 @@ html {
   overflow-x: hidden;
 }
 
+h1 {
+  margin-top: 100px;
+  text-align: center;
+}
 .imgContainer{
   float:left;
   margin-top: 30px;
@@ -15,11 +19,12 @@ html {
   text-align: center;
 }
 
+
 body {
   /*background-color: #465767;*/
   background: rgba(70,87,103,0.9);
   background: linear-gradient(to bottom, rgba(70,87,103,0.9) 0%, rgba(128,140,151,0.9) 40%, rgba(255,255,255,1) 100%);
-  height: 100%;
+  height: 100px;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,6 +124,7 @@ nav ul ul li a {
 	padding: 15px 40px;
 	color: #fff;
   background-color: inherit;
+  margin-left: 10px;
 }
 
 nav ul ul li a:hover {
@@ -135,8 +141,6 @@ nav ul ul ul {
     color: inherit;
     background: #FFF;
     background: linear-gradient(#FFF 0%, #bbbbbb 100%);
-    /*background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);*/
     padding: 20px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -280,7 +284,7 @@ nav ul ul ul {
   color: #FFF;
   font-size: 25pt;
   position:absolute;
-  margin-left: 210pt;
+  margin-left: 27%;
   margin-top: 220pt;
   margin-bottom: 30pt;
   text-align: center;
@@ -345,6 +349,11 @@ nav ul ul ul {
   float: left;
   clear: left;
   padding: 2px;
+}
+
+
+section{
+ margin-top: 9%;
 }
 
 .principles {
