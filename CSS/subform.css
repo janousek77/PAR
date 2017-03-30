@@ -34,12 +34,13 @@ header{
   font-size:60pt;
   font-family: 'Playfair Display', serif;
   float:left;
-  margin-top:0pt;
+  margin-top:-8pt;
   margin-left:15px;
   position: fixed;
 }
 
 .subtitle {
+  background-color: inherit;
   color:#E2E0D4;
   font-size:14pt;
   float:left;

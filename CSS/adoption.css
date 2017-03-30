@@ -1,3 +1,4 @@
+#login
 input[type=text], select {
     width: 623px;
     padding: 12px 20px;
@@ -8,21 +9,53 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+
+#login
 input[type=submit] {
-    width: 623px;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer
+  width: 623px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer
 }
 
+.petSearch
+ input[type="submit"],
+.petSearch
+ input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background: #1abc9c;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 3px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 12px;
+}
+
+.petSearch
+ input[type="submit"]:hover,
+.petSearch
+ input[type="button"]:hover
+{
+    background: #109177;
+    color: inherit;
+}
+
+#login
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
+#login
 input[type=text]:focus {
     background-color: lightgray;
 }
@@ -242,32 +275,4 @@ nav ul ul ul {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     border-radius: 15px 15px 15px 0px;
-}
-
-.petSearch
- input[type="submit"],
-.petSearch
- input[type="button"]
-{
-    position: relative;
-    display: block;
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background: #1abc9c;
-    font-size: 16px;
-    text-align: center;
-    font-style: normal;
-    width: 100%;
-    border: 3px solid #16a085;
-    border-width: 1px 1px 3px;
-    margin-bottom: 12px;
-}
-
-.petSearch
- input[type="submit"]:hover,
-.petSearch
- input[type="button"]:hover
-{
-    background: #109177;
-    color: inherit;
 }
