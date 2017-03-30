@@ -289,10 +289,12 @@ nav ul ul ul {
 .main_text {
   color: #000;
   margin-top: 400pt;
+  margin-left: 100pt;
   margin-right: 100pt;
   font-size: 18pt;
   text-indent: 2em;
   line-height: 30pt;
+  padding-left: 200pt;
 }
 
 .dog {
@@ -306,12 +308,13 @@ nav ul ul ul {
 
 .main_text1 {
   color: #000;
-  margin-top: 40pt;
+  margin-top: 60pt;
   margin-left: 30pt;
   margin-right: 100pt;
   font-size: 18pt;
   text-indent: 2em;
   line-height: 30pt;
+  padding-right: 180pt;
 }
 
 .dog1 {
@@ -377,6 +380,7 @@ nav ul ul ul {
   line-height: 30pt;
   list-style-type: disc;
   margin-left: 300pt;
+  padding-right: 275pt;
 }
 
 .dog3 {
