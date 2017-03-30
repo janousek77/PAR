@@ -19,7 +19,6 @@ body {
   text-align: left;;
   font-style: normal;
   font-size: 20px;
-  border-style: dotted;
   margin: auto;
   height: 320px;
   width: 400px;
@@ -62,7 +61,7 @@ position: fixed;
 }
 
 nav{
-  margin-left: 25.7%;
+  margin-left: 31.5%;
   margin-top: -10pt;
 }
 
