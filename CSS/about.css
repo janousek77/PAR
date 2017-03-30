@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
  }
- 
+
 h1 {
   font:  400 2em/1 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -126,7 +126,7 @@ main{
 }
 
 .bio {
-  font-size: .94em;
+  font-size: 1.2em;
   line-height: 1.25em;
   margin: 0.625em 0;
   padding:.25;
@@ -164,18 +164,11 @@ main{
   line-height:1rem;
 }
 
-.fortunato{
-  background-image: url(http://placehold.it/200x200);}
-.sean{
-  background-image: url(http://placehold.it/200x200);}
-.chris{
-  background-image: url(http://placehold.it/200x200);}
-
-
 .containersocial {
   width:100%;
   display:table;
   margin:0;
+  margin-top: 50pt;
 }
 
 #fortunatoTitle{
@@ -303,4 +296,10 @@ nav ul ul ul {
   margin-left:180px;
   text-decoration: underline;
   position: fixed;
+}
+
+.seanpic {
+  position: absolute;
+  margin-top: -175pt;
+  margin-left: -130pt;
 }
