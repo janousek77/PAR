@@ -206,7 +206,8 @@ main{
 }
 
 #chrisTitle{
-  border:2px solid #fff;
+  border-top:2px solid #fff;
+  border-bottom:2px solid #fff;
   letter-spacing:3.5px;
   padding-bottom:18px;
   padding-top: 18px;
