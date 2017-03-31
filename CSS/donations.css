@@ -1,78 +1,109 @@
-body{
+body {
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 0%, rgba(128,140,151,0.9) 40%, rgba(255,255,255,1) 100%);
+  height: 100px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000;
+ }
 
-  overflow-x:hidden;
-  font: 400 1em/1 "Droid Sans";
+aside{
+  width: 385px;
+  height: 500px;
+  float: left;
+}
+
+main{
+  float: left;
+  height: auto;
+  width: 50%;
+}
+
+h1{
+  margin-bottom: 0pt;
   text-align: center;
-  width:100%;
-  height:100%;
-  background: rgba(70,87,103,0.9);*/
-  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 27%rgba(128,140,151,0.9) 60%, rgba(255,255,255,1) 100%)
 }
 
-html {
-
-float: left;
-width: 100%;
-
+p{
+  text-align: left;
 }
 
-
-h1 {
-text-align: center;
-margin-top: 0px;
-}
-.globe {
-  margin-left: 300px;
-
+#help{
+  margin-top: 0px;
 }
 
-
-.bot {
-  float: left;;
-  margin-left: 100px;
-  cursor: pointer;
+.img{
+  height: 100pt;
+  display: inline-block;
 }
 
-button.bot {
-  cursor: pointer;
-}
-
-.images {
-
-margin-left: 20px;
-width: 280px;
-padding: 10px;
-margin-bottom: 20px;
-}
-
-.bot:hover {
-  transform: scale(1.75);
-}
-
-.logos1 {
-  margin-top: 1px;
-  overflow: hidden;
+.imgDiv{
+  width: 140pt;
+  height: 100%;
+  box-sizing: border-box;
   float: left;
-  display:inline-block;
-  border: 10px solid none;
 }
 
-.logos {
-margin-left: 300px;
-  margin-top: 1px;
-  overflow: hidden;
-  float: left;
-  display:inline-block;
-  border: 10px solid none;
+img{
+margin: 10pt 0pt;
 }
 
-.logos2 {
+.everett{
+  width: 100pt;
+  position: absolute;
+  top: 28%;
+}
 
-  margin-top: 1px;
-  overflow: hidden;
-  float: left;
-  display:inline-block;
-  border: 10px solid none;
+.shelters{
+  height: 120pt;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  border-top: 1px solid black;
+}
+
+#meow{
+  width: 100pt;
+  position: absolute;
+  top: 21%;
+}
+
+.syn{
+  width: 75.5%;
+  height: 120pt;
+  margin-left: 24.5%;
+}
+
+.syn p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  color:#D0C1A0;
+  font-size:60pt;
+  font-family: 'Playfair Display', serif;
+  float:left;
+  margin-top:-10pt;
+  margin-left:15px;
+  position: fixed;
+ }
+
+.subtitle {
+  background-color: inherit;
+  color:#E2E0D4;
+  font-size:14pt;
+  float:left;
+  margin-top:7pt;
+  margin-left:180px;
+  text-decoration: underline;
+  position: fixed;
+ }
+
+nav{
+  margin-left: 31.5%;
+  margin-top: -12pt;
 }
 
 nav ul ul {
@@ -80,7 +111,6 @@ nav ul ul {
 }
 
 nav ul li:hover > ul {
-  width: 100%;
 	display: block;
 	}
 
@@ -88,16 +118,13 @@ nav ul {
   color: inherit;
 	background-color: #FFF;
 	background: linear-gradient(#FFF 0%, #bbbbbb 100%);
-  /*background: -moz-linear-gradient(#FFF 0%, #bbbbbb 100%);
-  background: -webkit-linear-gradient(#FFF 0%,#bbbbbb 100%);*/
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0px;
 	list-style: none;
+	position: relative;
 	display: inline-table;
   border-radius: 30pt;
-  margin-top:5px;
   border: 1px solid black;
-  margin-left: 55px;
 }
 
 nav ul:after {
@@ -127,7 +154,6 @@ nav ul li a {
   background-color: inherit;
 	display: block; padding: 25px 40px;
 	color: #757575; text-decoration: none;
-  float: left;;
 
 }
 
@@ -165,18 +191,15 @@ nav ul ul ul {
     color: inherit;
     background: #FFF;
     background: linear-gradient(#FFF 0%, #bbbbbb 100%);
-    /*background: -moz-linear-gradient(top, #FFF 0%, #bbbbbb 100%);
-    background: -webkit-linear-gradient(top, #FFF 0%,#bbbbbb 100%);*/
     padding: 20px;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 15px;
     width: 125px;
     height: 330px;
-    position:absolute;
-    margin-top: 50pt;
+    position: fixed;
+    margin-top: 16.5pt;
     border: 1px solid black;
-    margin-left: 90px;
 }
 
 .petSearch
@@ -256,6 +279,8 @@ nav ul ul ul {
     margin-bottom: 12px;
 }
 
+.petSearch
+ input[type="submit"]:hover,
 .petSearch
  input[type="button"]:hover
 {

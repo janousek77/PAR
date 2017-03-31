@@ -33,7 +33,7 @@ header{
   font-size:60pt;
   font-family: 'Playfair Display', serif;
   float:left;
-  margin-top:-8pt;
+  margin-top:-10pt;
   margin-left:15px;
   position: fixed;
 }
@@ -43,7 +43,7 @@ header{
   color:#E2E0D4;
   font-size:14pt;
   float:left;
-  margin-top:10pt;
+  margin-top:8pt;
   margin-left:180px;
   text-decoration: underline;
   position: fixed;
