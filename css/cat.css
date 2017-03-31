@@ -1,0 +1,306 @@
+html{
+position: relative;
+height:100%;
+overflow:inherit;
+}
+
+body {
+  background: rgba(70,87,103,0.9);
+  background: linear-gradient(to bottom, rgba(70,87,103,0.9) 0%, rgba(128,140,151,0.9) 40%, rgba(255,255,255,1) 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000;
+ }
+
+main{
+  width: 65%;
+  height: 75%;
+  float: left;
+}
+
+nav{
+  margin-left: 31.5%;
+  margin-top: -9pt;
+}
+
+header{
+  position: relative;
+}
+
+.title {
+  color:#D0C1A0;
+  font-size:60pt;
+  font-family: 'Playfair Display', serif;
+  float:left;
+  margin-top:0pt;
+  margin-left:15px;
+  position: fixed;
+}
+
+.subtitle {
+  background-color: inherit;
+  color:#E2E0D4;
+  font-size:14pt;
+  float:left;
+  margin-top:10pt;
+  margin-left:180px;
+  text-decoration: underline;
+  position: fixed;
+}
+
+form{
+position: fixed;
+}
+
+
+.side {
+  float: left;
+  width: 17%;
+  height: 10px;
+}
+
+
+.imgContainer{
+  float: left;
+  margin-left: 87px;
+  margin-bottom: 50px;
+  height: 350px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font: rgba(0, 0, 0, .7);
+}
+
+.image123 {
+margin-left: 3.5%;
+border-radius: 100px;
+margin-top: 120px;
+}
+
+.imgContainer:hover {
+  transform: scale(1.75);
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.description{
+  height:100px;
+  width:180px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, .7);
+  color:white;
+  font-family:sans-serif;
+  padding:10px;
+  font-size: 13px;
+}
+
+h2{
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgba(0, 0, 0, .7);
+}
+
+p{
+  text-align: left;
+}
+
+#up{
+  bottom: 50px;
+  right: 60px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  position: fixed;
+  font-size: 1.3em;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	}
+
+nav ul {
+  color: inherit;
+	background-color: #FFF;
+	background: linear-gradient(#FFF 0%, #bbbbbb 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+  border-radius: 30pt;
+  border: 1px solid black;
+}
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+	}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover {
+  color:inherit;
+	background: #8EA9B9;
+	background: linear-gradient(#8EA9B9 0%, #5f6975 40%);
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+}
+
+nav ul li:hover a {
+  background-color: inherit;
+  color: #FFF;
+}
+
+nav ul li a {
+  background-color: inherit;
+	display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+
+}
+
+nav ul ul {
+  color: inherit;
+  background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+  margin-left: 30px;
+}
+
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+  background-color: inherit;
+}
+
+nav ul ul li a:hover {
+	background: #8EA9B9;
+  color: inherit;
+}
+
+nav ul ul ul {
+  position: absolute; left: 100%; top:0;
+}
+
+.petSearch {
+    max-width: 500px;
+    color: inherit;
+    background: #FFF;
+    background: linear-gradient(#FFF 0%, #bbbbbb 100%);
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 15px;
+    width: 125px;
+    height: 330px;
+    position:absolute;
+    margin-top: 18.5pt;
+    border: 1px solid black;
+}
+
+.petSearch
+ fieldset {
+    border: 1px solid;
+}
+.petSearch
+ legend {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.petSearch
+ label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.petSearch
+ select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05) inset;
+    margin-bottom: 17px;
+
+}
+
+.petSearch
+ textarea:focus,
+.petSearch
+ select:focus{
+    background: #FFF;
+    color: inherit;
+}
+.petSearch
+ select{
+    height:40px;
+}
+.petSearch
+ .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.petSearch
+ input[type="submit"],
+.petSearch
+ input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background: #1abc9c;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 3px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 12px;
+}
+
+.petSearch
+ input[type="submit"]:hover,
+.petSearch
+ input[type="button"]:hover
+{
+    background: #109177;
+    color: inherit;
+}
