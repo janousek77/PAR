@@ -168,14 +168,21 @@ main{
   width:100%;
   display:table;
   margin:0;
-  margin-top: 70pt;
+  margin-top: 40pt;
 }
 
 .containersocial-chris {
   width:100%;
   display:table;
   margin:0;
-  margin-top: 55pt;
+  margin-top: 26pt;
+}
+
+.containersocial-fort {
+  width:100%;
+  display:table;
+  margin:0;
+  margin-top: 26pt;
 }
 
 #fortunatoTitle{
