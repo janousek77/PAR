@@ -22,6 +22,7 @@ main{
 
 h1{
   margin-bottom: 0pt;
+  text-align: center;
 }
 
 p{
@@ -41,7 +42,7 @@ p{
   width: 140pt;
   height: 100%;
   box-sizing: border-box;
-  border: 1px solid black;
+  float: left;
 }
 
 img{
@@ -59,7 +60,7 @@ margin: 10pt 0pt;
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  border: 1px solid black;
+  border-top: 1px solid black;
 }
 
 #meow{
@@ -74,12 +75,17 @@ margin: 10pt 0pt;
   margin-left: 24.5%;
 }
 
+.syn p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .title {
   color:#D0C1A0;
   font-size:60pt;
   font-family: 'Playfair Display', serif;
   float:left;
-  margin-top:-5pt;
+  margin-top:-10pt;
   margin-left:15px;
   position: fixed;
  }
