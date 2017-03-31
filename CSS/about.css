@@ -105,7 +105,7 @@ main{
 }
 
 .liTitle {
-    text-transform:uppercase;
+  text-transform:uppercase;
   background:rgba(0,200,255,.5);
 }
 
@@ -168,7 +168,7 @@ main{
   width:100%;
   display:table;
   margin:0;
-  margin-top: 50pt;
+  margin-top: 70pt;
 }
 
 #fortunatoTitle{
@@ -176,7 +176,9 @@ main{
   border-bottom:2px solid #fff;
   letter-spacing:3.5px;
   padding-bottom:18px;
+  padding-top: 18px;
   margin:-5px 0 20px;
+  font-size: 11pt;
 }
 
 #seanTitle{
@@ -184,15 +186,18 @@ main{
   border-bottom:2px solid #fff;
   letter-spacing:3.5px;
   padding-bottom:18px;
+  padding-top: 18px;
   margin:-5px 0 20px;
-  background:transparent;
+  font-size: 11pt;
 }
 
 #chrisTitle{
   border:2px solid #fff;
   letter-spacing:3.5px;
   padding-bottom:18px;
+  padding-top: 18px;
   margin:-5px 0 20px;
+  font-size: 11pt;
 }
 
 #longName{
@@ -300,6 +305,14 @@ nav ul ul ul {
 
 .seanpic {
   position: absolute;
-  margin-top: -175pt;
-  margin-left: -130pt;
+  margin-top: -153pt;
+  margin-left: -75pt;
+  width: 151pt;
+}
+
+.chrispic {
+  position: absolute;
+  margin-top: -153pt;
+  margin-left: -75pt;
+  width: 151pt;
 }
