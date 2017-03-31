@@ -33,7 +33,7 @@ function submitChoice(event){
     window.location.href = 'kitten.html';
   }
   else if(animalChoice.value === 'cat' && ageChoice.value === 'adult'){
-    window.location.href = 'adultCat.html';
+    window.location.href = 'adult_cat.html';
   }
   else if(animalChoice.value === 'cat' && ageChoice.value === 'elderly'){
     window.location.href = 'elderly_cat.html';
